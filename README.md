@@ -25,13 +25,13 @@ Go through this checklist after creating your repository. It should only take a 
 ### README
 
 - [ ] Update this `README.md` (Note, do last!).
-- [ ] Rename all instances of `<Replace Title>` in README to match the new repo title
+- [ ] Rename all instances of `risadams.com` in README to match the new repo title
 - [ ] Manually go through and edit the rest of the README.
 
 ### Other Files
 
 - [ ] Copy `CODE_OF_CONDUCT.md` verbatim.
-- [ ] Copy `CONTRIBUTING.md` and ensure that you've added any repository-specific instructions. (Replace `<Replace Title>` again).
+- [ ] Copy `CONTRIBUTING.md` and ensure that you've added any repository-specific instructions. (Replace `risadams.com` again).
 - [ ] Should you have a `CHANGELOG.md`? Document your release process, if you plan on having one, in the `CONTRIBUTING.md` file.
 
 ### Dotfiles
