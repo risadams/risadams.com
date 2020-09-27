@@ -1,0 +1,26 @@
+{
+  "name": "@risadams/risadams.com",
+  "version": "1.0.0",
+  "description": "personal website for ris adams",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risadams/risadams.com.git"
+  },
+  "author": "ris adams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/risadams/risadams.com/issues"
+  },
+  "homepage": "https://github.com/risadams/risadams.com#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  }
+}
