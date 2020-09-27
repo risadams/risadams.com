@@ -43,9 +43,7 @@ defaults:
 authors:
   ahmad:
     name:             Ris Adams
-    bio:              todo
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
     email:            info@risadams.com
-    website:          http://aspirethemes.com
+    website:          http://risadams.com
     github_username:  risadams
     twitter_username: ris_adams
