@@ -23,6 +23,10 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - SECURITY.md
+  - SUPPORT.md
+  - LICENSE  
 
 sass:
   style: compressed
@@ -44,6 +48,8 @@ authors:
   ris:
     name:             Ris Adams
     email:            info@risadams.com
+    bio:              Developer, Father, Advocate
+    gravatar:         https://en.gravatar.com/userimage/1145971/8444b44eb6432be2ca017f3f63fb6cd8.jpg?2=150
     website:          http://risadams.com
     github_username:  risadams
     twitter_username: ris_adams

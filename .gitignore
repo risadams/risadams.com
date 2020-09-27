@@ -6,6 +6,10 @@
 node_modules
 /dist
 
+#cache
+.sass-cache
+_site
+
 # local env files
 .env.local
 .env.*.local
