@@ -1,7 +1,2 @@
----
-layout: page
-title: Ris Adams
-image: '/images/pages/logo.jpeg'
----
+https://risadams.com
 
-Updates Coming Soone
