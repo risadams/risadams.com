@@ -16,7 +16,7 @@ paginate:  12
 category_dir: topics
 category_title_prefix:
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll/tagging
 
