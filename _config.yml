@@ -13,6 +13,8 @@ facebook_username: ris.adams.53
 markdown:  kramdown
 permalink: pretty
 paginate:  12
+category_dir: topics
+category_title_prefix:
 
 gems:
   - jekyll-paginate
