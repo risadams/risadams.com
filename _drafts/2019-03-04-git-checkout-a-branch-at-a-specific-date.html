@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Git: Checkout a branch at a specific date'
+author: ris
+wordpress_id: 939
+wordpress_url: https://www.risadams.com/?p=939
+date: '2019-03-04 12:36:24 -0500'
+date_gmt: '2019-03-04 17:36:24 -0500'
+categories:
+- Development
+tags:
+- git
+comments: []
+---
+<p><!-- wp:cover {"url":"https://www.risadams.com/wp-content/uploads/2019/03/web-programmer.jpg","id":940,"dimRatio":20} --></p>
+<div class="wp-block-cover has-background-dim-20 has-background-dim" style="background-image:url(https://www.risadams.com/wp-content/uploads/2019/03/web-programmer.jpg)">
+<div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title&hellip;","fontSize":"large"} --></p>
+<p class="has-text-align-center has-large-font-size">Git Tricks: checkout a branch at a specific point in time</p>
+<p><!-- /wp:paragraph --></div>
+</div>
+<p><!-- /wp:cover --></p>
+<p><!-- wp:paragraph --></p>
+<p>Sometimes one needs to grab a copy of your source repo as of a specific point in time.<br>This is the command to do so.  Update the date and branch (e.g dev) according to your needs.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>git checkout `git rev-list -n 1 --before="2017-01-01 00:00" dev`</code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
