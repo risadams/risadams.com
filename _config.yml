@@ -28,7 +28,7 @@ exclude:
   - README.md
   - SECURITY.md
   - SUPPORT.md
-  - LICENSE  
+  - LICENSE
 
 sass:
   style: compressed
@@ -49,8 +49,8 @@ defaults:
 authors:
   ris:
     name:             Ris Adams
-    email:            info@risadams.com
-    bio:              Developer, Father, Advocate
+    email:            contact_bio@risadams.com
+    bio:              Professional Developer, Father, Human Rights Advocate, and Founder of the Dire Hope Foundation
     gravatar:         https://en.gravatar.com/userimage/1145971/8444b44eb6432be2ca017f3f63fb6cd8.jpg?2=150
     website:          http://risadams.com
     github_username:  risadams
