@@ -4,14 +4,14 @@
 
 body {
   color: $color__base;
-  background-color: #fff;
+  background-color: $brand-white;
   font-size: $font-size__base;
   font-weight: $font-weight__light;
   font-family: $font__serif;
   line-height: $line-height__base;
 
   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -29,15 +29,29 @@ h6 {
     font-size: $font-size__medium;
   }
 
-  a { text-decoration: none; }
+  a {
+    text-decoration: none;
+  }
 }
 
 .post-content {
-  h1 { font-size: 32px; }
-  h2 { font-size: 28px; }
-  h3 { font-size: 26px; }
-  h4 { font-size: 22px; }
-  h5 { font-size: 19px; }
+  h1 {
+    font-size: 32px;
+    font-weight: $font-weight__bold;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: $font-weight__regular;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 19px;
+  }
 
   li {
     margin: 0 0 ($line-height__medium / 2);
@@ -89,7 +103,8 @@ ul,
 ol {
   margin: 0 0 $line-height__base;
 
-  ul, ol {
+  ul,
+  ol {
     margin: 0;
   }
 

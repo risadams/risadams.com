@@ -1,12 +1,9 @@
-/**
- * Syntax highlighting styles
- */
 
 .highlight {
   margin: 0;
-  background: #fff;
+  background: $grey-bg;
 
-  .highlighter-rouge & { background: #FAFAFA; }
+  .highlighter-rouge & { background: $grey-bg; }
 
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error

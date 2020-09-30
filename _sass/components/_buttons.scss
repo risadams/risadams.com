@@ -14,7 +14,7 @@
   border-radius: 0;
 
   text-decoration: none;
-  color: #fff;
+  color: $brand-white;
   background-color: $color__base;
   transition: $base-transition-speed;
 
@@ -23,7 +23,7 @@
   &:active,
   &:focus,
   &:hover {
-    color: #fff;
+    color: $brand-white;
     background-color: $color__base--hover;
   }
 }

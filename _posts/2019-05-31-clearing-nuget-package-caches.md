@@ -24,7 +24,7 @@ Remove the following folders:
   * %localappdata%\NuGet\v3-cache
   * %localappdata%\NuGet\plugins-cache
 
-## Using The CLI
+### Using The CLI
 ``` bash
 # Clear the 3.x+ cache (use either command)
 dotnet nuget locals http-cache --clear

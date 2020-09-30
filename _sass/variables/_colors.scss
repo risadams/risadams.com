@@ -2,12 +2,18 @@
 // Colors
 //---------------------------
 
-$color__base:         #222222;
-$color__base--hover:  #7E7E7E;
+$brand-white: #ffffff;
+$brand-primary: #d21f79;
 
-$grey-bg:               #FAFAFA;
-$border-color:          #ECF0F1;
-$border-color--darker:  #DADFE1;
+$sidebar-bg: #ebeef4  ;
+
+$color__base:         #44565e;
+$color__base--hover:  $brand-primary;
+
+$grey-bg:               #e6e7e8;
+$grey-bg-fade:          #ebeef4F0;
+$border-color:          #e6e7e8;
+$border-color--darker:  #d21f79;
 
 $twitter-brand:   #55acee;
 $facebook-brand:  #3b5998;

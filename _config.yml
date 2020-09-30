@@ -2,7 +2,7 @@
 # Site settings
 title:            Ris Adams
 email:            info@risadams.com
-description:      The homepage for Ris Adams
+description:      Musings about software, life, and everything
 baseurl:          '' # The subpath of your site, e.g. /blog
 url:              'http://risadams.com/' # The base hostname & protocol for your site
 github_username:  risadams
@@ -12,6 +12,7 @@ facebook_username: ris.adams.53
 
 markdown:  kramdown
 permalink: pretty
+highlighter: rouge
 paginate:  12
 category_dir: topics
 category_title_prefix:
@@ -52,7 +53,7 @@ authors:
   ris:
     name:             Ris Adams
     email:            contact_bio@risadams.com
-    bio:              Professional Developer, Father, Human Rights Advocate, and Founder of the Dire Hope Foundation
+    bio:              Professional Developer, Father, Human Rights Advocate, and Founding Director of the Dire Hope Foundation.
     gravatar:         https://en.gravatar.com/userimage/1145971/8444b44eb6432be2ca017f3f63fb6cd8.jpg?2=150
     website:          http://risadams.com
     github_username:  risadams

@@ -261,6 +261,7 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   jekyll-tagging
+  rouge
 
 BUNDLED WITH
    2.1.4

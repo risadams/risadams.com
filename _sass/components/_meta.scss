@@ -3,6 +3,7 @@
 //---------------------------
 
 .post__tags {
+  margin-top: $line-height__base - half(quarter($line-height__base));
   margin-bottom: $line-height__base - half(quarter($line-height__base));
   font-size: $font-size__small;
 

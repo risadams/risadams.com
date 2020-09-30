@@ -7,7 +7,7 @@
   line-height: $line-height__medium;
 
   @media #{$large-down} {
-    background-color: #fff;
+    background-color: $brand-white;
     border-bottom: 1px solid $border-color;
   }
 
@@ -17,7 +17,7 @@
     left: 0;
     width: $sidebar-width;
     height: 100%;
-    background-color: $grey-bg;
+    background-color: $sidebar-bg;
     padding: $line-height__base 0;
     display: flex;
     align-items: center;
@@ -25,7 +25,8 @@
   }
 
   &__logo {
-    margin-bottom: quarter($line-height__base);
+    font-size: 34px;
+    margin-bottom: half($line-height__base);
 
     a {
       transition: $base-transition-speed;

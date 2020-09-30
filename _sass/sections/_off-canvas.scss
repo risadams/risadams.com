@@ -29,7 +29,7 @@
     width: $sidebar-width;
     height: 100%;
 
-    background-color: #fff;
+    background-color: $brand-white;
     border-left: 1px solid $border-color;
     transform: translate3d($sidebar-width, 0, 0);
   }
