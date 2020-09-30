@@ -1,0 +1,101 @@
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.bullets-inside {
+  list-style: inside;
+}
+
+.list-bare {
+  margin: 0;
+  padding: 0;
+  @extend .no-bullets;
+}
+
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.hide {
+  display: none;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.hidden {
+  border: 0 none;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+
+.light {
+  font-weight: $font-weight__light;
+}
+.regular {
+  font-weight: $font-weight__regular;
+}
+.bold {
+  font-weight: $font-weight__bold;
+}
+
+.italic {
+  font-style: italic;
+}
+.cap {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.ell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.font-base {
+  font-size: $font-size__base;
+}
+
+.font-medium {
+  font-size: $font-size__medium;
+  line-height: $line-height__medium;
+}
+
+.font-small {
+  font-size: $font-size__small;
+  line-height: $line-height__small;
+}
+
+.font-tiny {
+  font-size: $font-size__tiny;
+  line-height: $line-height__tiny;
+}
