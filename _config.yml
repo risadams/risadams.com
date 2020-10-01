@@ -4,7 +4,7 @@ title:            Ris Adams
 email:            info@risadams.com
 description:      Musings about software, life, and everything
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'https://risadams.com/' # The base hostname & protocol for your site
+url:              'https://risadams.com' # The base hostname & protocol for your site
 github_username:  risadams
 twitter_username: ris_adams
 instagram_username: ris.adams
