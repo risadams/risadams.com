@@ -41,7 +41,7 @@ some text is _italicized text_
 
 ### Nested Blockquote
 
-> some blockquotes need
+> some block-quotes need
   >> to be nested
 
 ### Ordered List
@@ -107,7 +107,7 @@ Here's a sentence with a footnote. [^1]
 
 term : definition
 
-### Strikethrough
+### Strike-through
 
 ~~The world is flat.~~
 
