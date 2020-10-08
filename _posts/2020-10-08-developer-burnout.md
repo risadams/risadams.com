@@ -10,7 +10,7 @@ tags:
   - development
 ---
 
-## What to do when doing what you no longer love your work
+## What to do when you no longer love your work
 
 Burnout is a common, yet serious, mental health issue that plagues the dev industry.  Devs often feel stuck working long hard hours with little reward or reprieve.
 
