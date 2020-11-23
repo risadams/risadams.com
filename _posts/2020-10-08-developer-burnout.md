@@ -8,6 +8,7 @@ categories:
 tags:
   - career
   - development
+  - health
 ---
 
 ## What to do when you no longer love your work
