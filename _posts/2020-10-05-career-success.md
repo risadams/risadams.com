@@ -21,7 +21,7 @@ tags:
 ## What does career failure look like to me
 
 * Doing boring work, that I hate to do
-* Not Being the only point of failure for a project, or not having backup for my position available
+* Being the only point of failure for a project, or not having backup for my position available
 * Being surrounded by people that I can't or don't admire or respect
 * Working for a company that I am ashamed of
 * Inflexible scheduling, or the inability to take time away if needed
