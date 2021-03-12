@@ -1,43 +1,45 @@
 $sidebar-width: 280px;
-$base-transition-speed: .4s;
+$base-transition-speed: 0.4s;
 
 $brand-white: #ffffff;
 $brand-primary: #d21f79;
-$sidebar-bg: #ebeef4  ;
+$sidebar-bg: #ebeef4;
 
-$color__base:         #44565e;
-$color__base--hover:  $brand-primary;
+$color__base: #44565e;
+$color__base--hover: $brand-primary;
 
-$grey-bg:               #e6e7e8;
-$grey-bg-fade:          #ebeef4F0;
-.grey-bg { background-color: $grey-bg; }
+$grey-bg: #e6e7e8;
+$grey-bg-fade: #ebeef4f0;
+.grey-bg {
+  background-color: $grey-bg;
+}
 
-$border-color:          #e6e7e8;
-$border-color--darker:  #d21f79;
+$border-color: #e6e7e8;
+$border-color--darker: #d21f79;
 
-$twitter-brand:   #55acee;
-$facebook-brand:  #3b5998;
-$google-brand:    #dc4e41;
+$twitter-brand: #55acee;
+$facebook-brand: #3b5998;
+$google-brand: #dc4e41;
 
-$font__serif:     Nista, sans-serif;
-$font__monospace: 'Cascadia Code PL', Consolas, Courier, monospace;
+$font__serif: "Nista", sans-serif;
+$font__monospace: "Cascadia Code PL", Consolas, Courier, monospace;
 
-$font-size__base:   19px;
+$font-size__base: 19px;
 $font-size__medium: 16px;
-$font-size__small:  14px;
-$font-size__tiny:   12px;
+$font-size__small: 14px;
+$font-size__tiny: 12px;
 
-$font-weight__light:    300;
-$font-weight__regular:  400;
-$font-weight__bold:     700;
+$font-weight__light: 300;
+$font-weight__regular: 400;
+$font-weight__bold: 700;
 
-$line-height__tiny:   round($font-size__tiny   * 1.55);
-$line-height__small:  round($font-size__small  * 1.55);
+$line-height__tiny: round($font-size__tiny * 1.55);
+$line-height__small: round($font-size__small * 1.55);
 $line-height__medium: round($font-size__medium * 1.55);
-$line-height__base:   round($font-size__base   *  1.7);
+$line-height__base: round($font-size__base * 1.7);
 
-$screen:      'only screen';
-$medium-up:   '#{$screen} and (min-width: 40.063em)';
-$medium-down: '#{$screen} and (max-width: 40em)';
-$large-up:    '#{$screen} and (min-width: 64.063em)';
-$large-down:  '#{$screen} and (max-width: 64em)';
+$screen: "only screen";
+$medium-up: "#{$screen} and (min-width: 40.063em)";
+$medium-down: "#{$screen} and (max-width: 40em)";
+$large-up: "#{$screen} and (min-width: 64.063em)";
+$large-down: "#{$screen} and (max-width: 64em)";

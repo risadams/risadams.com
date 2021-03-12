@@ -15,8 +15,11 @@ paginate:  12
 category_dir: topics
 category_title_prefix:
 
+collections:
+  blog:
+    output: true
+
 plugins:
-  - jekyll-paginate
   - jekyll/tagging
 
 include:
@@ -44,7 +47,7 @@ defaults:
   - scope:
       path: '_pages'
     values:
-      permalink: /:basename:output_ext
+      permalink: :basename:output_ext
 
 # Authors
 authors:

@@ -1,0 +1,21 @@
+---
+layout: blog
+title: Blog
+---
+
+<div class="wrapper">
+
+  <div class="row row--full">
+    <div class="post-list">
+      {% assign sorted = site.blog | sort: 'date' | reverse %}
+      {% for post in sorted %}
+        {% include post-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="row row--full">
+    {% include pagination.html %}
+  </div>
+
+</div>

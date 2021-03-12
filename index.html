@@ -1,19 +1,36 @@
 ---
-layout: default
+layout: landing
 ---
 
-<div class="wrapper">
-
-  <div class="row row--full">
-    <div class="post-list">
-      {% for post in paginator.posts %}
-        {% include post-card.html %}
-      {% endfor %}
+<section class="showcase">
+  <header>
+    <h2 class="logo">Ris Adams</h2>
+    <div class="toggle">
+      <i class="fa fa-bars"></i>
     </div>
+  </header>
+  <video src="video/landing-bg.mp4" muted loop autoplay></video>
+  <div class="overlay"></div>
+  <div class="text">
+    <h2> Never Stop</h2>
+    <h3> Changing the world.</h3>
+    <p>
+      I am a father, a developer, and advocate for social justice, and a dreamer.<br/>
+      I believe that creativity and passion can spark change--and one great idea can build worlds.
+    </p>
+    <a href="/blog">Breath Deep</a>
   </div>
-
-  <div class="row row--full">
-    {% include pagination.html %}
-  </div>
-
+  <ul class="social">
+    <li> <a href="https://www.facebook.com/ris.adams.53"><i class="icon fab fa-facebook"></i></a> </li>
+    <li> <a href="https://www.linkedin.com/in/risadams/"><i class="icon fab fa-linkedin"></i></a> </li>
+    <li> <a href="https://github.com/risadams"><i class="icon fab fa-github"></i></a> </li>
+    <li> <a href="mailto:info@risadams.com"><i class="icon fa fa-envelope"></i></a> </li>
+  </ul>
+</section>
+<div class="menu">
+  <ul>
+    <li> <a href="https://risadams.com">home</a></li>
+    <li> <a href="/about">about</a></li>
+    <li> <a href="/blog">blog</a></li>
+  </ul>
 </div>

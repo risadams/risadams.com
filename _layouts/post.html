@@ -1,16 +1,17 @@
 ---
-layout: default
+layout: blog
 ---
 
 {% include base_path %}
 
 {% assign author = site.authors[page.author] %}
+{% assign image = page.image | prepend: site.baseurl | append: ".jpg" %}
 
 <div class="wrapper">
   <div class="row row--full">
 
     <div class="column column--center medium-12 large-12">
-      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url('{{ page.image | prepend: site.baseurl }}')"></div>
+      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url('{{ image }}')"></div>
     </div>
 
     <div class="column column--center medium-12 large-10">
