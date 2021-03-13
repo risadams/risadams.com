@@ -1,5 +1,5 @@
-@import 'normalize';
-@import 'fonts';
+@import "normalize";
+@import "fonts";
 
 :root {
   --overlay-color: $brand-primary;
@@ -35,7 +35,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 40px 35px;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -137,10 +137,9 @@
 
   .toggle {
     position: relative;
-    width: 60px;
-    height: 60px;
     font-size: 30px;
     cursor: pointer;
+    transition: 0.2s;
 
     &.active {
       font-size: 25px;
@@ -150,6 +149,7 @@
 
 .menu {
   background-color: $sidebar-bg;
+  border-left: 2px solid $border-color;
   color: $color__base;
   position: absolute;
   top: 0;
@@ -179,11 +179,11 @@
   }
 }
 
-@media (max-width: 798px) {
+@media (max-width: 815px) {
   .showcase {
     padding: 40px;
     .header {
-      padding: 40px;
+      padding: 40px 20px;
     }
     .text {
       h2 {
