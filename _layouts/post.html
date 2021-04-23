@@ -18,12 +18,12 @@ layout: blog
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
         {% if page.image %}
-          <meta itemprop="og:image" content="{{ base_path }}{{ page.image }}">
+          <meta itemprop="og:image image" content="{{ base_path }}{{ page.image }}">
         {% endif %}
 
         <header class="post__header">
           <h2 class="post__title" itemprop="name headline">{{ page.title }}</h2>
-          <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+          <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished dateModified" >{{ page.date | date: "%b %-d, %Y" }}</time>
         </header>
 
         <div class="post-content" itemprop="articleBody">
