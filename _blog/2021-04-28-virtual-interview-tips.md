@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Virtual interview tops"
+title: "Virtual interview tips"
 image: "/images/posts/girl-surprising-upset-and-offended-beautiful-young-woman-working-at-laptop-in-workplace-at-home_t20_Bm1eWj"
 author: ris
 categories:
