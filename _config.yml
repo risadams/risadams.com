@@ -7,6 +7,7 @@ baseurl:          '' # The subpath of your site, e.g. /blog
 url:              'https://risadams.com' # The base hostname & protocol for your site
 github_username:  risadams
 facebook_username: ris.adams.53
+linkedin_username: risadams
 
 markdown:  kramdown
 permalink: pretty

@@ -33,13 +33,13 @@
     &:hover {
       background-color: $grey-bg;
 
-      .share-list__icon--twitter  { fill: $twitter-brand; }
-      .share-list__icon--facebook { fill: $facebook-brand; }
-      .share-list__icon--google   { fill: $google-brand; }
+      .share-list__icon--twitter  { color: $twitter-brand; }
+      .share-list__icon--facebook { color: $facebook-brand; }
+      .share-list__icon--google   { color: $google-brand; }
     }
   }
 
-  &__icon { fill: $color__base; }
+  &__icon { color: $color__base; }
 
   @media #{$medium-down} { margin-bottom: $line-height__medium; }
 }
