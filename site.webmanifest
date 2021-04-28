@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "risadams.com",
+    "short_name": "risadams.com",
+    "start_url": "https://risadams.com",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
