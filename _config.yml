@@ -48,7 +48,7 @@ defaults:
   - scope:
       path: '_pages'
     values:
-      permalink: :basename/
+      permalink: :title/
 
 # Authors
 authors:

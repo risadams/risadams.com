@@ -55,7 +55,7 @@ tags:
 
 ### 6. Take breaks
 
-* Overworking can cause [burnout]({{ '/blog/2020-10-08-developer-burnout' | relative_url }})
+* Overworking can cause [burnout]({{ '/blog/2020-10-08-developer-burnout/' | relative_url }})
 * Take at least one 15 minute break every 1-2 hours.
 
 ### 7. Minimize distractions
