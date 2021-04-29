@@ -3,6 +3,8 @@ const cacheName = 'cache-v1';
 // List the files to precache
 const precacheResources = [
      '/', '/index.html', '/js/landing.js',
+     '/app.css','/landing.css',
+     '/video/landing-bg.mp4',
      '/fonts/Nista/BwNistaGeo-RgIt.woff','/fonts/Nista/BwNistaGeo-RgIt.woff2','/fonts/Nista/BwNistaGeo-RgIt.ttf',
      '/fonts/Nista/BwNistaGeo-Bd.woff','/fonts/Nista/BwNistaGeo-Bd.woff2','/fonts/Nista/BwNistaGeo-Bd.ttf',
      '/fonts/Nista/BwNistaGeo-Bk.woff','/fonts/Nista/BwNistaGeo-Bk.woff2','/fonts/Nista/BwNistaGeo-Bk.ttf',

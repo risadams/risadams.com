@@ -15,14 +15,9 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
 
-{% include sec-headers.html %}
+  {% include sec-headers.html %}
 
-  <style type="text/css">
-    {% capture inlineCSS %}
-      {% include landing.scss %}
-    {% endcapture %}
-    {{ inlineCSS | scssify }}
-  </style>
+  <link rel="stylesheet" href="/landing.css">
 
   <script nonce='93d398468cd44d7ba092d404b5a2bac0'>
     var base_url = {{ site.baseurl | jsonify }};
