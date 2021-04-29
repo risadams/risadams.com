@@ -70,7 +70,7 @@ some text is _italicized text_
 
 ### Image
 
-![Oh Hey](/images/posts/oh-hey)
+![Oh Hey](/images/posts/oh-hey.jpg)
 
 ## Extended Syntax
 
